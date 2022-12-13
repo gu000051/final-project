@@ -1,0 +1,636 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Generic Styles */
+
+body {
+    background: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px; /* this is 1em */
+    line-height: 1.5;
+    color: black;
+}
+
+h1 {
+    font-size: 71px;
+    line-height: 106px;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+h2 {
+    font-size: 48px;
+    line-height: 1.5;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+/* H3...H4..ECT */
+
+h3 {
+    font-size: 32px;
+    line-height: 1.5;
+    font-weight: bold;
+    margin-bottom: 12px;
+    padding-left: 14px;
+}
+
+h4 {
+    font-size: 17px;
+    line-height: 1.5;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+P {
+    margin-bottom: 1em; /* font-size is 14, so 1em= 14px */
+    
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    background: black;
+}
+
+.container {
+   padding: 14px;
+}
+
+.logo {
+     background: #c78607;
+     padding-top: 20px;
+     padding-bottom: 20px;
+}
+
+nav li {
+    display: block;
+    
+}
+
+nav a:link,
+nav a:visited{
+    font-size: 18px;
+    color:#c78607;
+    text-align:center;
+    display: block;
+    text-decoration: none;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+nav .current a:link, 
+nav .current a:visited{
+    color: #000;
+    background: #c78b07;
+} 
+
+header form input{
+    width: 93%;
+    height: 40px;
+}
+
+header button {
+    width: 40px;
+    height: 36px;
+    border-color: #b78614;
+    font-size: 20px;
+    background-color: #000;
+   
+}
+
+/* SECTION-SPECFIC STYLES */
+
+/* WELCOME SECTION */
+
+.header-welcome {
+    background-image: url(../images/main-banner.jpg);
+    background-size: cover;
+    padding-top: 68px;
+    padding-bottom: 68px;
+}
+
+.header-welcome .container {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 15px ;
+}
+
+.header-welcome button{
+    height: 95px;
+    width: 260px;
+    color: #000;
+    background-color: #b78614;
+    margin-top: 28px;
+}
+
+/* ABOUT SECTION */
+
+ .section-about {
+   background-color: #ffe6ac;
+}
+ 
+.section-services p {
+    padding-left: 14px;
+}
+
+/* SERVICE ONE */
+
+ .service-one{
+    background-color: #ffe6ac;
+    margin-bottom: 14px;
+}
+
+ .digitalimg img{
+    width: 100%;
+} 
+
+.service-one button {
+    background-color: #000;
+    color: white;
+    width: 222px; height: 93px;
+    font-size: 19px;
+    margin: 14px;
+    margin-top: -5px;
+}
+
+/* SERVICE TWO */
+
+.service-two{
+    background-color: #ffe6ac;
+    margin-bottom: 14px;
+}
+
+ .marketing img {
+    width: 100%;
+}
+
+ .service-two button {
+    background-color: #000;
+    color: white;
+    width: 255px; height: 95px;
+    font-size: 19px;
+    margin: 14px;
+    margin-top: -5px;
+}
+
+ /* SERVICE THREE */
+
+ .service-three{
+    background-color: #ffe6ac;
+    margin-bottom: 14px;
+ }
+
+ .video img{
+    width: 100%;
+ } 
+
+ .service-three button {
+    background-color: #000;
+    color: white;
+    width: 213px; height: 95px;
+    font-size: 19px;
+    margin: 14px;
+    margin-top: -5px;
+}
+
+ /* SERVICE FOUR */
+
+ .service-four{
+    background-color: #ffe6ac;
+    margin-bottom: 14px;
+ }
+
+ .web img{
+    width: 100%;
+ } 
+
+ .service-four button {
+    background-color: #000;
+    color: white;
+    width: 200px; height: 95px;
+    font-size: 19px;
+    margin: 14px;
+    margin-top: -5px;
+}
+
+
+ /* SERVICE FIVE */
+
+ .service-five{
+    background-color: #ffe6ac;
+    margin-bottom: 14px;
+}
+
+.print img{
+    width: 100%;
+ } 
+
+ .service-five button {
+    background-color: #000;
+    color: white;
+    width: 200px; height: 95px;
+    font-size: 19px;
+    margin: 14px;
+    margin-top: -5px;
+}
+
+/* OUR VISION */
+
+.section-vision {
+    background-image: url(../images/vision.jpg);
+    background-size: 100% 100%;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    height: 250px;
+    max-width: 100%;
+}
+
+.section-vision h3 {
+    color: white;
+}
+
+.section-vision p {
+    color: white;
+}
+
+.section-vision button {
+    background-color: #11273f;
+    color: white;
+    width: 200px; height: 95px;
+    font-size: 19px;
+    margin: 2px;
+    border-color: #b78614; 
+}
+
+/* OUR TEAM */
+
+.section-team img{
+    width: 100%;
+}
+
+.team-one {
+    background-color: #ffe6ac;
+}
+
+.team-two {
+    background-color: #ffe6ac;
+    padding-left: 14px;
+    padding-bottom: 14px;
+}
+
+.team-two h3 {
+    padding-left: 5px;
+}
+
+.team-two h4{ 
+   border-bottom: 1.5px solid black;
+   margin-right: 14px;
+   border-bottom-color: #b46c00;
+}
+
+/* BOB PART*/
+
+.team-three {
+    background-color: #ffe6ac;
+    margin-top: 14px;    
+}
+
+.bobinfor {
+    background-color: #ffe6ac;
+    padding-left: 14px;
+    padding-bottom: 14px;
+}
+
+.bobinfor h3{
+    padding-left: 2px;
+}
+
+.bobinfor h4{
+   
+    border-bottom: 1.5px solid black;
+    margin-right: 14px;
+    border-bottom-color: #b46c00;     
+}
+
+/* FORM */
+
+.form input { 
+    width: 100%;
+}
+
+#message{
+    height: 150px;
+    width: 100%;
+}
+
+.form h3 {
+    padding-left: 3px;
+}
+
+.form button{
+    background-color: #000;
+    color: #e7a003;
+    font-size: 20px;
+    margin-top: 14px;
+}
+
+/* TABLE */
+
+.table h3 {
+    padding-left: 3px;
+}
+
+table, td, th {
+    border: 1px solid;
+    padding: 15px;
+}
+
+table {
+    width: 100%;
+
+}
+
+tr:nth-child(1) {
+    background-color: #ffe6ac;  
+    height: 50px;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: #000;
+    color: #c78607;
+    padding-top: 20px;
+    padding-bottom: 28px;
+}
+
+footer p{
+    padding-top: 14px;
+}
+ 
+
+
+ /* DESKTOP STYLES */
+
+ @media screen and (min-width: 760px) 
+ {
+    .container {
+        width: 706px;
+        margin: 0 auto;
+    }
+ }
+
+
+ @media screen and (min-width: 1200px) 
+{
+    .container {
+        width: 1168px;
+        padding:0 16px;
+        margin: 0 auto;
+    }
+   
+    nav .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    ul li {
+        margin-left: 1.5em;
+     }
+
+    form {
+        display: flex;
+        margin-right: 5em;
+    }
+ 
+    
+    .logo {
+        margin-bottom: 1em ;
+        margin-top: 1em;
+        margin-left: 5em;
+        padding: 0;
+        background: none;
+    }
+
+    nav a:link,
+    nav a:visited{
+        font-size: 18px;
+        color:#c78607;
+        text-align:center;
+        display: block;
+        text-decoration: none;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    /* HEADER WELCOME */
+
+    .header-welcome {
+       background-position: center;
+       background-size: cover;
+       width: 100%;
+       height: 380px;  
+    }
+    
+    .header-welcome .container {
+        background: rgba(0, 0, 0, 0.5);
+        color: white;  
+        width: 1000px;
+        height: 400px;
+        
+    }
+
+    .header-welcome button{
+        height: 90px;
+        width: 245px;
+        margin-top: -10px;
+    }
+
+   .section-image{
+       width: 480px;
+       height: 245px;
+       padding-top: 14px;
+       padding-left: 100px;
+       padding-right: 14px;
+       float: left;
+    }
+    .section-about p{
+       padding-right: 80px;
+    }
+   
+    .section-about {
+        background-color: #ffe6ac;
+        height: 275px;
+      }
+
+      /* OUR SERVICES */
+    .section-services h2{
+        margin-left: 100px;
+        margin-top: 50px;
+        margin-bottom: 28px;
+    }
+
+    .forgrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 14px;
+        padding-left: 100px;
+        padding-right: 100px;
+    } 
+
+    .grid1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 14px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .service-one button {
+        width: 454px; height: 90px;
+        margin-bottom: 14px;
+    }
+    .service-one h3 {
+        margin-top: 36px;
+        margin-bottom: 28px;
+    }
+    .service-two button {
+        width: 454px; height: 90px;
+        margin-bottom: 14px;
+    }
+    .service-two h3 {
+        margin-top: 36px;
+        margin-bottom: 28px;
+    }
+    
+    .service-three button {
+        width: 290px; height: 90px;
+        margin-bottom: 14px;
+    }
+    .service-four button {
+        width: 290px; height: 90px;
+        margin-bottom: 14px;
+    }
+    .service-five button {
+        width: 290px; height: 90px;
+        margin-bottom: 14px;
+    }
+    /* OUR TREAM */
+
+    .section-team h2{
+        margin-left: 100px;
+        margin-top: 50px;
+        margin-bottom: 28px;
+    }
+
+    .grid2{
+        display: grid;
+        grid-template-columns:1fr 1fr;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    
+    .team-three{
+        grid-column:2/3;
+        margin-top: -23px;
+    }
+    .bobinfor {
+        grid-row: 2/3;  
+    }
+
+    /* CONTACT US */
+
+    .section-contact h2{
+      padding-top: 69px;
+      margin-left: 95px;
+      margin-bottom: 65px;
+   }
+
+
+    .grid3{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;
+      margin-left: 100px;
+      margin-right: 100px;
+    }
+
+    .form {
+      grid-row: 1/2;
+      grid-row: 1;
+    }
+
+    .map{
+      grid-column: 2/3;
+      grid-row: 2/1;
+    }
+
+    .table{
+      grid-column: 1/3;
+      grid-row: 2/3;
+      margin-bottom: 14px;
+    }
+
+
+}

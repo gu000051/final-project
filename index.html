@@ -5,6 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Three Star Media</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" 
+    rel="stylesheet">
+   
+    <link href="css/styles.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -12,16 +20,18 @@
     <header>
         <nav>
              <div class="container">
-                <img src="images/logo.png" alt="Logo">
+                <div class="logo">
+                <img src="images/logo.png" alt="logo">
+                </div>
                 <ul>
-                    <li><a href="#"> Home</a></li>
+                    <li class="current">  <a href="#"> Home</a></li>
                     <li><a href="#"> About Us</a></li>
                     <li><a href="#"> Services</a></li>
                     <li><a href="#"> Team</a></li>
                     <li><a href="#"> Contact</a></li>
                 </ul>
                 <form>
-                    <input type="search">
+                    <input type="search" placeholder="Search">
                     <button> 
                         &#128269;
                     </button>
@@ -43,9 +53,7 @@
                  <button type="button">Connect with us ▶</button>
 
             </div> <!-- end container -->
-
-        </div>
-
+        </div> <!--end header-welcome-->
 
     </header>
 
@@ -75,19 +83,26 @@
             <div class="container">
                 <!-- one heading, five div's, ecah with an image, h3, para, button ON A GRID-->
                 <h2>Our Services </h2>
-
+            <div class="forgrid">
                <div class="service-one">
-                <img src="images/digital.jpg" alt="digital">
-                 <h3>Digital Plans ▶ </h3>
-                    <p>
+                 <div class="digitalimg">
+                     <img src="images/digital.jpg" alt="digital">
+                 </div>
+               
+                 <h3>Digital Transformation</h3>
+                     <p>
                      Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia 
                      eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?
-                    </p>
-                    <button type="button">Digital Plans ▶ </button>
-              </div>
+                     </p>
+                <button type="button">Digital Plans ▶ </button>
+                         
+            </div>
 
               <div class="service-two">
-                <img src="images/marketing.jpg" alt="marketing">
+                 <div class="marketing">
+                      <img src="images/marketing.jpg" alt="marketing">
+                 </div>
+
                  <h3>Marketing </h3>
                     <p>
                      Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia 
@@ -95,9 +110,14 @@
                     </p>
                     <button type="button"> Marketing Plans ▶ </button>
               </div>
-
+            </div>
+            <div class="grid1">
               <div class="service-three">
-                <img src="images/video.jpg" alt="video">
+
+                    <div class="video">
+                       <img src="images/video.jpg" alt="video">
+                    </div>
+
                  <h3> Video Production</h3>
                     <p>
                      Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia 
@@ -107,7 +127,10 @@
               </div>
 
               <div class="service-four">
-                <img src="images/web.jpg" alt="web">
+                <div class="web">
+                   <img src="images/web.jpg" alt="web">
+                </div>
+
                  <h3> Web Development </h3>
                     <p>
                      Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia 
@@ -117,14 +140,18 @@
               </div>
                
               <div class="service-five">
-                <img src="images/print.jpg" alt="print">
+                <div class="print">
+                  <img src="images/print.jpg" alt="print">
+                </div>
                  <h3>Print </h3>
                     <p>
                      Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia 
                      eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?
                     </p>
                     <button type="button">Print Plans ▶ </button>
-              </div>
+             </div> 
+             </div>   
+              
 
             </div> <!-- end container-->
         </section> <!-- end section-services-->
@@ -140,39 +167,42 @@
                 <button type="button">Learn More ▶ </button>
 
             </div> <!-- end container-->
-        </section> <!-- end section-vision-->
-   
+        </section> <!-- end section-vision-->   
 
         <section class="section-team">
             <div class="container">
+                
                 <!-- one heading, and four dives with an image some text elements-->
                  <h2>Our Team </h2>
-
+             <div class="grid2">
                 <div class="team-one">
                   <img src="images/john.jpg" alt="john">
                 </div>
 
                 <div class="team-two">
-                  <h3> John Doe</h3>
-                  <h4>CEO and Co-owner </h4>
-                  <p>
+                   <h3> John Doe</h3>
+                   <h4>CEO and Co-owner </h4>
+                   <p>
                     Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet, aspernatur ratione sed cum ad officiis sint comque fugiat similique. 
                     Earum laudantium deleniti possimus? Voluptatem architecto repellendus harum sit voluptatum tempora.
-                  </p>
+                   </p>
                 </div>
 
+                    
                 <div class="team-three">
+                    <img src="images/bob.jpg" alt="bob">
+                </div>
+                <div class="bobinfor">
                     <h3> Bob Rite</h3>
                     <h4>CFO and Co-owner </h4>
                     <p>
                     Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet, aspernatur ratione sed cum ad officiis sint comque fugiat similique.
-                     Earum laudantium deleniti possimus? Voluptatem architecto repellendus harum sit voluptatum tempora.
+                    Earum laudantium deleniti possimus? Voluptatem architecto repellendus harum sit voluptatum tempora.
                     </p>
-                </div>
+                </div> 
+            </div>
 
-                <div class="team-four">
-                    <img src="images/bob.jpg" alt="bob">
-                </div>
+                    
 
             </div> <!-- end container-->
         </section> <!-- end section-team-->
@@ -184,49 +214,50 @@
                 <!-- a heading, and three dives with an form, a map embed, and a table for the hours of operation-->
             <h2>Contact Us</h2>
 
-            <div class="form">
-                <h3>Send us a message</h3>
+            <div class="grid3">
 
-               <form action="/action_page.php">
-                 <label for="fname">Full name</label><br>
-                 <input type="text" id="fname" name="fname" ><br>
-                 <label for="email">Email</label><br>
-                 <input type="text" id="email" name="email" ><br>
-                 <label for="message">Message</label><br>
-                 <textarea id="message"></textarea><br>
-                 <button type="button"> Send </button>
-               </form>  
-            </div>
-
-            <div class="map">
-                <h3>Location </h3>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.9447375322197!2d-75.7549368!3d45.349927799999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1669181504066!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-
-            <div class="table">
-
-               <table>
-                   <thead>
+              <div class="form">
+               <h3>Send us a message</h3>
+              
+                <form action="/action_page.php">
+                     <label for="fname">Full name</label><br>
+                     <input type="text" id="fname" name="fname" ><br>
+                     <label for="email">Email</label><br>
+                     <input type="text" id="email" name="email" ><br>
+                     <label for="message">Message</label><br>
+                     <input type="text" id="message" name="message"><br>
+                     <button type="button"> Send </button>
+                </form> 
+               
+               </div>
+            
+             <div class="table">
+               <h3>Hours of opertion</h3>
+                <table>
+                 
                     <tr>
                       <th>Days</th>
                       <th>Hours</th> 
                     </tr>
-                   </thead>
-
-                   <tbody>
+            
                     <tr>
-                      <td>Monday - Friday</td>
-                      <td>9 AM - 6 PM</td>
+                      <td> Monday - Friday </td>
+                      <td> 9 AM - 6 PM </td>
                     </tr>
 
                     <tr>
                       <td>Saturday - Sunday</td>
                       <td> Closed</td>
                     </tr> 
-                   </tbody>
+                  
                 </table>
+             </div>
+             
+              <div class="map">
+                <h3>Location </h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.9447375322197!2d-75.7549368!3d45.349927799999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1669181504066!5m2!1sen!2sca" width="680" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
             </div>
-
             </div> <!-- end container-->
         </section> <!-- end section-contact-->
     </main>
@@ -235,8 +266,8 @@
         <div class="container">
             <!-- some text -->
             &#169;  Copyright Three Star Media, 2020
-
             <p> All images are taken from <u>Unsplash</u> </p>
+           
         </div> <!-- end container -->
    </footer>
 
